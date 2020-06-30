@@ -1,0 +1,60 @@
+
+
+.main{
+    border: 2px solid black;
+    background-color: rgb(91, 15, 105);
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 2px;
+    box-shadow: 0px 1px 6px 4px gray;
+    position: relative;
+    top: 50px;
+}
+.display{
+    height: 70px;
+    width: 98%;
+    font-size: 30px;
+
+}
+.clearbtn{
+      width: 299px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /* background-color: white; */
+    font-size: 25px;
+    box-shadow: 1px 1px 3px 3px red;
+
+}
+.btn{
+    /* background-color: white; */
+    border: none;
+    width: 97px;
+    height: 64px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px red;
+    
+}
+.zerobtn{
+    width: 198px;
+    height: 68px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /* background-color: white; */
+    font-size: 25px;
+    box-shadow: 1px 1px 3px 3px red;
+
+}
+.clearbtn, .btn, .zerobtn, :focus{
+    outline: 0px;
+}
+.clearbtn:hover,.zerobtn:hover,.btn:hover{
+    background-color: rgb(94, 204, 238);
+    color: white;
+}
